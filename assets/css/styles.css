@@ -244,7 +244,7 @@ h6 {
     background-color: #cbd1de;
     color: #ffffff;
     font-size: 16px;
-    line-height: 34px;
+    line-height: 35px;
     text-align: center;
     text-decoration: none;
     -webkit-transition: all 0.25s;
@@ -263,6 +263,8 @@ h6 {
 .social-media a.twitter { background-color: #0ea4ff; }
 .social-media a.instagram { background-color: #d32b6f; }
 .social-media a.linkedin { background-color: #018faf; }
+.social-media a.github { background-color: #3b3b3b; width: 40px; height: 40px; line-height: 40px; font-size: 20px; }
+.social-media a.demo { background-color: #edcd16; width: 40px; height: 40px; line-height: 40px; font-size: 20px; }
 
 /* DEFAULT COLOR */
 .social-media a:hover {
