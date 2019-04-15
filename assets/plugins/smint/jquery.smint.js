@@ -38,8 +38,12 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 			//Fill the menu
 			var id = $(this).attr("id");
 			// console.log(id);
+			try {
 			optionLocs.push(Array($("div."+id).position().top-menuHeight, $("div."+id).height()+$("div."+id).position().top, id));
-
+			}
+			catch(error) {
+				
+			}
 			///////////////////////////////////
 
 			// get initial top offset for the menu 
