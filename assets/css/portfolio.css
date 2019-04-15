@@ -115,6 +115,9 @@
 .portfolio-modal .modal-content p.item-intro span.mongodb { background: #07af2b; }
 .portfolio-modal .modal-content p.item-intro span.firebase { background: #d7eb25; }
 .portfolio-modal .modal-content p.item-intro span.jquery { background: #2553eb; }
+.portfolio-modal .modal-content p.item-intro span.nodejs { background: #000000; }
+.portfolio-modal .modal-content p.item-intro span.css { background: #dd0e87; }
+.portfolio-modal .modal-content p.item-intro span.fawesome { background: #2d0edd; }
 
 /**********************************
   close modal
