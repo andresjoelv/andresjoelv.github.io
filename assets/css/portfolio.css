@@ -96,6 +96,26 @@
   text-align: center;
 }
 
+.portfolio-modal .modal-content p.item-intro span {
+  border-radius: 6px;
+  padding: 4px 7px;
+  background: #1d2224;
+  color: white;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.portfolio-modal .modal-content p.item-intro span:last-child {
+  margin-right: 0;
+}
+
+.portfolio-modal .modal-content p.item-intro span.javascript { background: #e6ff01; color: #7c7878; }
+.portfolio-modal .modal-content p.item-intro span.htmlcss { background: #ff5e01; }
+.portfolio-modal .modal-content p.item-intro span.react { background: #09d4b9; }
+.portfolio-modal .modal-content p.item-intro span.mongodb { background: #07af2b; }
+.portfolio-modal .modal-content p.item-intro span.firebase { background: #d7eb25; }
+.portfolio-modal .modal-content p.item-intro span.jquery { background: #2553eb; }
+
 /**********************************
   close modal
 **********************************/
