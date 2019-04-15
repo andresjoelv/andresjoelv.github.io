@@ -96,7 +96,7 @@
   text-align: center;
 }
 
-.portfolio-modal .modal-content p.item-intro span {
+.portfolio-modal .modal-content p.tech span {
   border-radius: 6px;
   padding: 4px 7px;
   background: #1d2224;
@@ -105,19 +105,21 @@
   margin-right: 5px;
 }
 
-.portfolio-modal .modal-content p.item-intro span:last-child {
+.portfolio-modal .modal-content p.tech span:last-child {
   margin-right: 0;
 }
 
-.portfolio-modal .modal-content p.item-intro span.javascript { background: #e6ff01; color: #7c7878; }
-.portfolio-modal .modal-content p.item-intro span.htmlcss { background: #ff5e01; }
-.portfolio-modal .modal-content p.item-intro span.react { background: #09d4b9; }
-.portfolio-modal .modal-content p.item-intro span.mongodb { background: #07af2b; }
-.portfolio-modal .modal-content p.item-intro span.firebase { background: #d7eb25; }
-.portfolio-modal .modal-content p.item-intro span.jquery { background: #2553eb; }
-.portfolio-modal .modal-content p.item-intro span.nodejs { background: #000000; }
-.portfolio-modal .modal-content p.item-intro span.css { background: #dd0e87; }
-.portfolio-modal .modal-content p.item-intro span.fawesome { background: #2d0edd; }
+.portfolio-modal .modal-content p.tech span.javascript { background: #e6ff01; color: #7c7878; }
+.portfolio-modal .modal-content p.tech span.htmlcss { background: #ff5e01; }
+.portfolio-modal .modal-content p.tech span.react { background: #09d4b9; }
+.portfolio-modal .modal-content p.tech span.mongodb { background: #07af2b; }
+.portfolio-modal .modal-content p.tech span.firebase { background: #d7eb25; }
+.portfolio-modal .modal-content p.tech span.jquery { background: #2553eb; }
+.portfolio-modal .modal-content p.tech span.nodejs { background: #000000; }
+.portfolio-modal .modal-content p.tech span.css { background: #dd0e87; }
+.portfolio-modal .modal-content p.tech span.fawesome { background: #2d0edd; }
+.portfolio-modal .modal-content p.tech span.mysql { background: #f38226; }
+.portfolio-modal .modal-content p.tech span.expressjs { background: #c2bcb8; }
 
 /**********************************
   close modal
