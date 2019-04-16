@@ -273,10 +273,11 @@ h6 {
 
 .social-media .github, .social-media .demo {
     font-family: "Roboto", sans-serif;
+    box-shadow: 4px 4px #c7c7c7;
 }
 
-.social-media a.github { background-color: #3b3b3b; margin-right: 50px; }
-.social-media a.demo { background: #0ba38a; }
+.social-media a.github { background-color: #3b3b3b;  }
+.social-media a.demo { background: #0ba38a; margin-left: 50px; }
 
 /* DEFAULT COLOR */
 .social-media a:hover {

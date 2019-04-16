@@ -106,7 +106,7 @@
 
 .portfolio-modal .modal-content .modal-body .mobile-img {
   width: 100%;
-  height: 550px;
+  height: 450px;
 }
 
 .portfolio-modal .modal-content .modal-body img {
@@ -119,6 +119,7 @@
 .portfolio-modal .modal-content div.tech {
   text-align: center;
   margin-top: 4px;
+  margin-bottom: 6px;
 }
 
 .portfolio-modal .modal-content div.tech p {
