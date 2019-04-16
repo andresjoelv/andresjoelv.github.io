@@ -79,16 +79,6 @@
     }
 }
 
-@media(max-width:480px) {
-  .portfolio-modal .modal-content .modal-body img {
-    width: 100%;
-    height: 5px;
-    box-shadow: 10px 10px #c9c7c7;
-    border: 1px solid red;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.9); */
-  }
-}
-
 /********************************************************
   Modal Portfolio
 ********************************************************/
@@ -114,9 +104,14 @@
   padding: 100px 0;
 }
 
-.portfolio-modal .modal-content .modal-body img {
+.portfolio-modal .modal-content .modal-body .mobile-img {
   width: 100%;
   height: 550px;
+}
+
+.portfolio-modal .modal-content .modal-body img {
+  width: 100%;
+  height: 100%;
   box-shadow: 10px 10px #c9c7c7;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.9); */
 }
@@ -199,5 +194,16 @@
   -webkit-transform: rotate(90deg);
   /* Safari and Chrome */
   z-index: 1052;
+}
+
+
+@media(max-width:480px) {
+  .portfolio-modal .modal-content .modal-body .mobile-img {
+    width: 100%;
+    height: 200px;
+    box-shadow: 10px 10px #c9c7c7;
+    border: 3px solid red;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.9); */
+  }
 }
 
