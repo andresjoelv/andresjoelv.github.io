@@ -263,8 +263,20 @@ h6 {
 .social-media a.twitter { background-color: #0ea4ff; }
 .social-media a.instagram { background-color: #d32b6f; }
 .social-media a.linkedin { background-color: #018faf; }
-.social-media a.github { background-color: #3b3b3b; width: 40px; height: 40px; line-height: 40px; font-size: 20px; }
-.social-media a.demo { background-color: #edcd16; width: 40px; height: 40px; line-height: 40px; font-size: 20px; }
+.social-media a.github, .social-media a.demo {
+    width: 205px; 
+    height: 40px; 
+    line-height: 40px; 
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.social-media .github, .social-media .demo {
+    font-family: "Roboto", sans-serif;
+}
+
+.social-media a.github { background-color: #3b3b3b; margin-right: 50px; }
+.social-media a.demo { background: #0ba38a; }
 
 /* DEFAULT COLOR */
 .social-media a:hover {

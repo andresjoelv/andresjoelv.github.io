@@ -33,6 +33,8 @@
 
     <link rel="stylesheet" href="assets/css/portfolio.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
      <!-- CUSTOM & PAGES STYLE -->
      <!-- <link rel="stylesheet" href="assets/css/custom.css">
      <link rel="stylesheet" href="assets/css/pages-style.css"> -->
@@ -289,7 +291,7 @@
                             <!-- Body of modal-mody -->
                             <h2></h2>
                             <p>A Firebase and jQuery-based multiplayer online Rock Paper Scissors game.</p>
-                            <h3>Description</h3>
+                            <h3>About this project</h3>
                             <p>This application allows two users with separate sessions/devices to play against one another. The game follows straightforward rock paper scissors rules. Users' stats, choices, and chat messages are tracked and updated in realtime via Firebase. I took this project as an exercise in extending and hardening my skills with Firebase.</p>
                             <h3>Getting Started</h3>
                             <p>To play the game, click on the eye icon above. You won't be able to play it alone, so make sure to grab a friend (or maybe just a second browser tab)! If you prefer to run the application locally, you can clone this repository and open index.html in your web browser of choice.</p>
@@ -332,7 +334,7 @@
                             </p>
                             <!-- Body of modal-mody -->
                             <p>A Firebase and jQuery-based multiplayer online Rock Paper Scissors game.</p>
-                            <h3>Description</h3>
+                            <h3>About this project</h3>
                             <p>This application allows two users with separate sessions/devices to play against one another. The game follows straightforward rock paper scissors rules. Users' stats, choices, and chat messages are tracked and updated in realtime via Firebase. I took this project as an exercise in extending and hardening my skills with Firebase.</p>
                             <h3>Getting Started</h3>
                             <p>To play the game, click on the eye icon above. You won't be able to play it alone, so make sure to grab a friend (or maybe just a second browser tab)! If you prefer to run the application locally, you can clone this repository and open index.html in your web browser of choice.</p>
@@ -372,7 +374,7 @@
                             </p>
                             <!-- Body of modal-mody -->
                             <p>Game was created as an Object for the purpose of making it more challenging.</p>
-                            <h3>Description</h3>
+                            <h3>About this project</h3>
                             <p>Fun game that will run in the browser, and features dynamically updated HTML and CSS powered by JavaScript code.</p>
                             <h3>Getting Started</h3>
                             <p>To play the game, click on the eye icon above. Object will detect key event for each letter. If letter is contained in the word it will be displayed</p>
@@ -414,7 +416,7 @@
                             </p>
                             <!-- Body of modal-mody -->
                             <p>A command line interfance application</p>
-                            <h3>Description</h3>
+                            <h3>About this project</h3>
                             <p>A Node.js & MySQL command line Amazon-like storefront app that takes in customers orders and depletes stock from the stores Inventory.</p>
                             <p>Demo command line app (CLI) that simulates the back end of a food business wholesale order platform with server storage and a managers login for administration abilities.</p>
                             <h3>Getting Started</h3>
@@ -432,45 +434,91 @@
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
-            <div class="social-media">
-                <a class="github animated bounce delay-1s" href="https://github.com/andresjoelv/burger" target="blank"><i class="fab fa-github"></i></a>
-                <a href="https://glacial-shelf-41418.herokuapp.com/index" class="demo animated bounce delay-2s" target="blank"><i class="fas fa-eye"></i></a>
-            </div>
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+                <div class="social-media sm-modal d-flex justify-content-center">
+                    <a class="github animated bounceInLeft" href="https://github.com/andresjoelv/burger" target="blank"><i class="fab fa-github"></i>   GITHUB</a>
+                    <a href="https://glacial-shelf-41418.herokuapp.com/index" class="demo animated bounceInRight" target="blank"><i class="fas fa-eye"></i>     VISIT THE WEBSITE</a>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Eat Da Burger</h2>
-                            <p class="tech text-muted">
-                                <span class="javascript">JavaScript</span>  
-                                <span class="htmlcss">jQuery</span>
-                                <span class="nodejs">Node</span>
-                                <span class="mysql">MySQL</span>
-                                <span class="expressjs">Express</span>
-                            </p>
-                            <!-- Body of modal-mody -->
-                            <p>A restaurant app that lets users input the names of burgers they'd like to eat.</p>
-                            <h3>Description</h3>
-                            <p>Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.</p>
-                            <p>Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.</p>
-                            <p>The app will store every burger in a database, whether devoured or not.</p>
-                            <h3>Getting Started</h3>
-                            <p>click on the eye icon above.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="d-flex justify-content-center">Eat Da Burger</h2>
+                                <div class="tech text-muted">
+                                    <p class="javascript animated bounce delay-2s">JavaScript</p>  
+                                    <p class="htmlcss animated bounce delay-4s">jQuery</p>
+                                    <p class="nodejs animated bounce">Node</p>
+                                    <p class="mysql animated bounce delay-3s">MySQL</p>
+                                    <p class="expressjs animated bounce delay-5s">Express</p>
+                                </div>
+                                <br />
+                                <!-- Body of modal-mody -->
+                                <p>A restaurant app that lets users input the names of burgers they'd like to eat.</p>
+                                <img class="img-responsive img-centered" src="assets/images/modals/rps_multiplayer.PNG" alt="">
+                                <br />
+                                <br />
+                                <br />
+
+                                <h3>About this project</h3>
+                                <hr />
+                                <p>Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.</p>
+                                <p>Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.</p>
+                                <p>The app will store every burger in a database, whether devoured or not.</p>
+                                <br />
+
+                                <h3>Technical Sheet</h3>
+                                <br />
+                                <p>Code technologies that I got involved with while working on this project.</p>
+                                <hr />
+                                <p>Node</p>
+                                <p>JavaScript ES6</p>
+                                <p>Express</p>
+                                <p>MySQL</p>
+                                <p>jQuery</p>
+                                <br />
+
+                                <h3>Getting Started</h3>
+                                <hr />
+                                <p>click on the eye icon above.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
         </div>
     </div>
+
+    <!----start-contact---->
+    <div class="contact section s2">
+        <div class="container">
+            <h4>Let's Chat!</h4>
+            <p class="contact-head">Ok, Let's create something Unique! If you like my work and have some cool project to work on, or just want to say hello, just send me direct message or contact me through social sites listed below. </p>
+            <div class="row contact-form">
+                
+            </div>
+            <!----start-social-icons--->
+            <div class="social-icons">
+                <ul>
+                    <li><a class="facebook" href="https://www.facebook.com/andresjoel"> <span> </span></a></li>
+                    <li><a class="twitter" href="#"> <span> </span></a></li>
+                    <li><a class="dribbble" href="#"> <span> </span></a></li>
+                </ul>
+            </div>
+            <!----//End-social-icons--->
+        </div>
+    </div>
+    <!----start-copy-right---->
+    <div class="copy-right">
+        <p>&copy; 2017 Andres Villamarin, Made in Canada.</p>					
+    </div>
+    <!----//End-copy-right---->
 
     <!-- BOOTSTRAP JS -->
     <script src="assets/js/popper.min.js"></script>

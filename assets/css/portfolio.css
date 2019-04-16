@@ -82,9 +82,16 @@
 /********************************************************
   Modal Portfolio
 ********************************************************/
+.portfolio-modal {
+  background: #ffffff;
+}
 
 .portfolio-modal .modal-dialog {
   height: 100%;
+}
+
+.portfolio-modal .modal-dialog p {
+  font-size: 20px;
 }
 
 .portfolio-modal .modal-content {
@@ -95,33 +102,47 @@
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
 }
 
-.portfolio-modal .modal-content p.tech span {
-  border-radius: 6px;
-  padding: 4px 7px;
+.portfolio-modal .modal-content .modal-body img {
+  width: 100%;
+  height: 550px;
+  box-shadow: 10px 10px #c9c7c7;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.9); */
+}
+
+.portfolio-modal .modal-content div.tech {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.portfolio-modal .modal-content div.tech p {
+  height: 22px;
+  display: inline-block;
+  border-radius: 5px;
   background: #1d2224;
   color: white;
   font-size: 12px;
-  margin-right: 5px;
+  padding: 1px 8px;
+  margin-right: 7px;
+  line-height: 20px;
 }
 
-.portfolio-modal .modal-content p.tech span:last-child {
+.portfolio-modal .modal-content div.tech p:last-child {
   margin-right: 0;
 }
 
-.portfolio-modal .modal-content p.tech span.javascript { background: #e6ff01; color: #7c7878; }
-.portfolio-modal .modal-content p.tech span.htmlcss { background: #ff5e01; }
-.portfolio-modal .modal-content p.tech span.react { background: #09d4b9; }
-.portfolio-modal .modal-content p.tech span.mongodb { background: #07af2b; }
-.portfolio-modal .modal-content p.tech span.firebase { background: #d7eb25; }
-.portfolio-modal .modal-content p.tech span.jquery { background: #2553eb; }
-.portfolio-modal .modal-content p.tech span.nodejs { background: #000000; }
-.portfolio-modal .modal-content p.tech span.css { background: #dd0e87; }
-.portfolio-modal .modal-content p.tech span.fawesome { background: #2d0edd; }
-.portfolio-modal .modal-content p.tech span.mysql { background: #f38226; }
-.portfolio-modal .modal-content p.tech span.expressjs { background: #c2bcb8; }
+.portfolio-modal .modal-content .tech p.javascript { background: #e6ff01; color: #7c7878; }
+.portfolio-modal .modal-content .tech p.htmlcss { background: #ff5e01; }
+.portfolio-modal .modal-content .tech p.react { background: #09d4b9; }
+.portfolio-modal .modal-content .tech p.mongodb { background: #07af2b; }
+.portfolio-modal .modal-content .tech p.firebase { background: #d7eb25; }
+.portfolio-modal .modal-content .tech p.jquery { background: #2553eb; }
+.portfolio-modal .modal-content .tech p.nodejs { background: #000000; }
+.portfolio-modal .modal-content .tech p.css { background: #dd0e87; }
+.portfolio-modal .modal-content .tech p.fawesome { background: #2d0edd; }
+.portfolio-modal .modal-content .tech p.mysql { background: #f38226; }
+.portfolio-modal .modal-content .tech p.expressjs { background: #c2bcb8; }
 
 /**********************************
   close modal
@@ -129,10 +150,6 @@
 
 .portfolio-modal .social-media .demo:last-child {
   margin-right: 0px;
-}
-
-.portfolio-modal .sm-project .demo {
-  background: #0ab0fd;
 }
 
 .portfolio-modal .close-modal {
