@@ -138,8 +138,21 @@
   margin-right: 0;
 }
 
+.visit-link {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #000000;
+}
+
+.visit-link:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  background: #222222;
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .portfolio-modal .modal-content .tech p.javascript { background: #e6ff01; color: #7c7878; }
-.portfolio-modal .modal-content .tech p.htmlcss { background: #ff5e01; }
+.portfolio-modal .modal-content .tech p.html { background: #ff5e01; }
 .portfolio-modal .modal-content .tech p.react { background: #09d4b9; }
 .portfolio-modal .modal-content .tech p.mongodb { background: #07af2b; }
 .portfolio-modal .modal-content .tech p.firebase { background: #d7eb25; }
@@ -149,6 +162,7 @@
 .portfolio-modal .modal-content .tech p.fawesome { background: #2d0edd; }
 .portfolio-modal .modal-content .tech p.mysql { background: #f38226; }
 .portfolio-modal .modal-content .tech p.expressjs { background: #c2bcb8; }
+.portfolio-modal .modal-content .tech p.mcss { background: #da50df; }
 
 /**********************************
   close modal
