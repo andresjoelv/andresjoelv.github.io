@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment, useState, useEffect } from "react";
 import {
   Sidebar,
   Menu,
@@ -50,16 +50,44 @@ const SidebarMain = () => {
   const colors = tokens(theme.palette.mode);
   const { collapseSidebar, collapsed } = useProSidebar();
   const [selected, setSelected] = useState("Dashboard");
+  const [data, setData] = useState(null);
 
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+  useEffect(() => {
+    fetch("/api")
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+  }, []);
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
     const question = e.target.question.value;
     const answer = e.target.answer.value;
     console.log("values are:", question + "? a:" + answer);
+
+    const headers = new Headers({ "Content-Type": "application/json" });
+
+    const requestBody = {
+      question: question,
+      answer: answer,
+    };
+
+    const init = {
+      method: "POST",
+      headers: headers,
+      body: JSON.stringify(requestBody),
+    };
+
+    fetch("/entry", init)
+      .then((res) => res.json())
+      .then((data) => {
+        console.log("data");
+        setData("entry saved");
+      })
+      .catch((err) => console.log(err));
   };
 
   return (
@@ -119,6 +147,13 @@ const SidebarMain = () => {
         </MenuItem>
         <Item
           title="Slack Integration"
+          to="/integrations"
+          icon={<HubIcon />}
+          selected={selected}
+          setSelected={setSelected}
+        />
+        <Item
+          title={data}
           to="/integrations"
           icon={<HubIcon />}
           selected={selected}
